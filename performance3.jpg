@@ -1,0 +1,70 @@
+<svg width="350" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rehearsal-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4f4f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e8;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="warm-light" cx="30%" cy="20%" r="80%">
+      <stop offset="0%" style="stop-color:#fff8dc;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#f4f4f4;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 排练室背景 -->
+  <rect width="350" height="300" fill="url(#rehearsal-bg)"/>
+  
+  <!-- 自然光线 -->
+  <ellipse cx="100" cy="50" rx="120" ry="80" fill="url(#warm-light)"/>
+  
+  <!-- 排练中的表演者 -->
+  <g transform="translate(120, 160)">
+    <!-- 头部 -->
+    <circle cx="0" cy="-45" r="13" fill="#DEB887"/>
+    
+    <!-- 简单发型 -->
+    <path d="M-11 -52 Q0 -56 11 -52 Q9 -49 0 -46 Q-9 -49 -11 -52" fill="#2F1B14"/>
+    
+    <!-- 练习服装 -->
+    <rect x="-14" y="-30" width="28" height="35" rx="3" fill="#708090"/>
+    
+    <!-- T恤图案 -->
+    <circle cx="0" cy="-18" r="4" fill="#ffffff" opacity="0.7"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#708090">戏</text>
+    
+    <!-- 手臂（练习动作） -->
+    <ellipse cx="-18" cy="-10" rx="7" ry="18" fill="#DEB887" transform="rotate(-45)"/>
+    <ellipse cx="18" cy="-10" rx="7" ry="18" fill="#DEB887" transform="rotate(20)"/>
+    
+    <!-- 练习裤 -->
+    <rect x="-11" y="5" width="22" height="30" fill="#2F4F4F"/>
+    
+    <!-- 练习鞋 -->
+    <ellipse cx="-7" cy="40" rx="5" ry="2" fill="#000000"/>
+    <ellipse cx="7" cy="40" rx="5" ry="2" fill="#000000"/>
+  </g>
+  
+  <!-- 排练室道具 -->
+  <g transform="translate(250, 220)">
+    <!-- 椅子 -->
+    <rect x="-15" y="-10" width="30" height="3" fill="#8B4513"/>
+    <rect x="-12" y="-25" width="3" height="15" fill="#8B4513"/>
+    <rect x="9" y="-25" width="3" height="15" fill="#8B4513"/>
+    <rect x="-12" y="5" width="3" height="15" fill="#8B4513"/>
+    <rect x="9" y="5" width="3" height="15" fill="#8B4513"/>
+  </g>
+  
+  <!-- 剧本 -->
+  <g transform="translate(50, 240)">
+    <rect x="0" y="0" width="20" height="25" fill="#ffffff" stroke="#cccccc"/>
+    <line x1="3" y1="5" x2="17" y2="5" stroke="#333333" stroke-width="0.5"/>
+    <line x1="3" y1="8" x2="17" y2="8" stroke="#333333" stroke-width="0.5"/>
+    <line x1="3" y1="11" x2="17" y2="11" stroke="#333333" stroke-width="0.5"/>
+    <line x1="3" y1="14" x2="17" y2="14" stroke="#333333" stroke-width="0.5"/>
+  </g>
+  
+  <!-- 地面 -->
+  <rect x="0" y="260" width="350" height="40" fill="#d3d3d3" opacity="0.5"/>
+  
+  <!-- 标题文字 -->
+  <text x="175" y="285" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555555">排练现场</text>
+</svg>

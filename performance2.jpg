@@ -1,0 +1,60 @@
+<svg width="350" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="modern-stage" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:0.9" />
+    </linearGradient>
+    <radialGradient id="stage-light" cx="40%" cy="20%" r="70%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:0.2" />
+    </radialGradient>
+  </defs>
+  
+  <!-- 现代舞台背景 -->
+  <rect width="350" height="300" fill="url(#modern-stage)"/>
+  
+  <!-- 舞台灯光 -->
+  <ellipse cx="140" cy="60" rx="100" ry="70" fill="url(#stage-light)"/>
+  
+  <!-- 现代话剧表演者 -->
+  <g transform="translate(140, 180)">
+    <!-- 头部 -->
+    <circle cx="0" cy="-50" r="12" fill="#DEB887"/>
+    
+    <!-- 现代发型 -->
+    <path d="M-10 -58 Q0 -62 10 -58 Q8 -55 0 -52 Q-8 -55 -10 -58" fill="#2F1B14"/>
+    
+    <!-- 现代服装上身 -->
+    <rect x="-15" y="-35" width="30" height="40" rx="5" fill="#2c3e50"/>
+    
+    <!-- 衬衫领子 -->
+    <path d="M-8 -35 L0 -30 L8 -35" fill="#ffffff" stroke="#2c3e50" stroke-width="1"/>
+    
+    <!-- 手臂（表演姿态） -->
+    <ellipse cx="-20" cy="-15" rx="8" ry="20" fill="#DEB887" transform="rotate(-30)"/>
+    <ellipse cx="20" cy="-15" rx="8" ry="20" fill="#DEB887" transform="rotate(45)"/>
+    
+    <!-- 现代裤装 -->
+    <rect x="-12" y="5" width="24" height="35" fill="#34495e"/>
+    
+    <!-- 鞋子 -->
+    <ellipse cx="-8" cy="45" rx="6" ry="3" fill="#2F1B14"/>
+    <ellipse cx="8" cy="45" rx="6" ry="3" fill="#2F1B14"/>
+  </g>
+  
+  <!-- 另一个表演者剪影 -->
+  <g transform="translate(250, 200)" opacity="0.6">
+    <circle cx="0" cy="-40" r="10" fill="#34495e"/>
+    <rect x="-12" y="-25" width="24" height="30" fill="#34495e"/>
+    <rect x="-10" y="5" width="20" height="25" fill="#34495e"/>
+  </g>
+  
+  <!-- 舞台地面 -->
+  <rect x="0" y="250" width="350" height="50" fill="#2c3e50" opacity="0.8"/>
+  
+  <!-- 舞台边缘线 -->
+  <line x1="0" y1="250" x2="350" y2="250" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+  
+  <!-- 标题文字 -->
+  <text x="175" y="280" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ffffff" opacity="0.9">现代话剧演出</text>
+</svg>

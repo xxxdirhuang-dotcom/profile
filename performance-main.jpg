@@ -1,0 +1,33 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#D2691E;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="400" height="600" fill="url(#bg)"/>
+  
+  <!-- 传统服饰轮廓 -->
+  <path d="M200 50 C180 50 160 70 160 100 L160 200 C160 220 170 240 190 250 L190 400 C190 420 200 440 220 450 L220 550 L180 550 L180 580 L220 580 L220 550 L180 550 L180 580 L220 580 L180 580 L220 580 L240 580 L240 550 L220 550 L220 450 C240 440 250 420 250 400 L250 250 C270 240 280 220 280 200 L280 100 C280 70 260 50 240 50 L200 50 Z" fill="#CD853F" opacity="0.7"/>
+  
+  <!-- 头部 -->
+  <circle cx="200" cy="80" r="25" fill="#DEB887"/>
+  
+  <!-- 传统发饰 -->
+  <path d="M175 65 Q200 55 225 65 Q220 70 200 75 Q180 70 175 65" fill="#8B4513"/>
+  
+  <!-- 服装装饰 -->
+  <circle cx="200" cy="150" r="8" fill="#FFD700"/>
+  <circle cx="180" cy="170" r="5" fill="#FFD700"/>
+  <circle cx="220" cy="170" r="5" fill="#FFD700"/>
+  
+  <!-- 袖子 -->
+  <ellipse cx="150" cy="180" rx="30" ry="60" fill="#CD853F" opacity="0.6"/>
+  <ellipse cx="250" cy="180" rx="30" ry="60" fill="#CD853F" opacity="0.6"/>
+  
+  <!-- 文字标识 -->
+  <text x="200" y="520" text-anchor="middle" font-family="serif" font-size="16" fill="white" opacity="0.9">黄淑灿</text>
+  <text x="200" y="540" text-anchor="middle" font-family="serif" font-size="12" fill="white" opacity="0.7">传统戏曲表演</text>
+</svg>

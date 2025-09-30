@@ -1,0 +1,62 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bookGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f4e6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8dcc0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="400" fill="url(#bookGradient1)" stroke="#d4c4a8" stroke-width="2"/>
+  
+  <!-- Decorative border -->
+  <rect x="15" y="15" width="270" height="370" fill="none" stroke="#c4a484" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Traditional window pattern -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="200" height="120" fill="none" stroke="#a0906c" stroke-width="2"/>
+    <line x1="0" y1="60" x2="200" y2="60" stroke="#a0906c" stroke-width="1"/>
+    <line x1="100" y1="0" x2="100" y2="120" stroke="#a0906c" stroke-width="1"/>
+    <line x1="50" y1="0" x2="50" y2="60" stroke="#a0906c" stroke-width="0.5"/>
+    <line x1="150" y1="0" x2="150" y2="60" stroke="#a0906c" stroke-width="0.5"/>
+    <line x1="50" y1="60" x2="50" y2="120" stroke="#a0906c" stroke-width="0.5"/>
+    <line x1="150" y1="60" x2="150" y2="120" stroke="#a0906c" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Main title -->
+  <text x="150" y="210" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="url(#titleGradient1)">
+    Old Tales of
+  </text>
+  <text x="150" y="240" text-anchor="middle" font-family="serif" font-size="24" font-weight="bold" fill="url(#titleGradient1)">
+    the South
+  </text>
+  
+  <!-- Chinese title -->
+  <text x="150" y="270" text-anchor="middle" font-family="serif" font-size="16" fill="#8b4513">
+    城南旧事
+  </text>
+  
+  <!-- Author -->
+  <text x="150" y="300" text-anchor="middle" font-family="serif" font-size="14" fill="#654321">
+    by Lin Haiyin
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="150" y="330" text-anchor="middle" font-family="serif" font-size="12" fill="#8b6914">
+    Critical Analysis Edition
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="75" cy="350" r="8" fill="none" stroke="#c4a484" stroke-width="1"/>
+  <circle cx="225" cy="350" r="8" fill="none" stroke="#c4a484" stroke-width="1"/>
+  <path d="M 75 342 Q 150 320 225 342" fill="none" stroke="#c4a484" stroke-width="1"/>
+  
+  <!-- Publisher mark -->
+  <text x="150" y="375" text-anchor="middle" font-family="serif" font-size="10" fill="#a0906c">
+    Academic Press
+  </text>
+</svg>
